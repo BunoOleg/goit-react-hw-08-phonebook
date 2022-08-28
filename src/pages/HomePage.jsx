@@ -23,12 +23,12 @@ const HomePage = () => {
   <Carousel.Item>
     <img
       className="d-block w-100"
-      data-src="holder.js/800x400?theme=vine&text=Performed by Volodymyr Sokoriev&fg=000000&size=50&font=Helvetica"
+      data-src="holder.js/800x400?theme=vine&text=Performed by Oleg Buno&fg=000000&size=50&font=Helvetica"
       alt="Second slide"
     />
     <Carousel.Caption>
       <h5>Github link below</h5>
-      <p><a href='https://github.com/sokorevvvladimir'>https://github.com/sokorevvvladimir</a></p>
+      <p><a href='https://github.com/BunoOleg'>https://github.com/BunoOleg</a></p>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>

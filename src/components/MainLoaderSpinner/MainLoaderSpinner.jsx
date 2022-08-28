@@ -11,7 +11,7 @@ const Div = styled.div`
   // }
   // @media (min-width: 1024px) {
   //   width: 100%;
-  }
+  
 `;
 
 const MainLoaderSpinner = () => {

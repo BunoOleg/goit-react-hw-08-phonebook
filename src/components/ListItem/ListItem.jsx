@@ -23,7 +23,7 @@ list-style: none;
   &:not(:last-child) {
     margin-bottom: 15px;
   }
-  )
+  
 `;
 const StyledCard = styled(Card)`
 @media (max-width: 767px) {
