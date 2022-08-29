@@ -12,13 +12,13 @@ import ThemeProvider from 'react-bootstrap/ThemeProvider'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <Provider store={store}>
     <PersistGate loading={null} persistor={persistor}>
-    <React.StrictMode>
+      <React.StrictMode>
         <BrowserRouter basename="/goit-react-hw-08-phonebook">
           <ThemeProvider
-  breakpoints={['xxxl', 'xxl', 'xl', 'lg', 'md', 'sm', 'xs', 'xxs']}
->
+            breakpoints={['xxxl', 'xxl', 'xl', 'lg', 'md', 'sm', 'xs', 'xxs']}
+          >
             <App />
-            </ThemeProvider>
+          </ThemeProvider>
         </BrowserRouter>
       </React.StrictMode>
     </PersistGate>

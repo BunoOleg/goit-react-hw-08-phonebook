@@ -8,6 +8,7 @@ const HomePage = () => {
     runHolder('d-block');
     });
     
+  
     return (<Carousel variant="dark">
   <Carousel.Item>
     <img

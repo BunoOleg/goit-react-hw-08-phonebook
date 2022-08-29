@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import Spinner from 'react-bootstrap/Spinner';
 
+
 const Div = styled.div`
   display: flex;
   justify-content: center;

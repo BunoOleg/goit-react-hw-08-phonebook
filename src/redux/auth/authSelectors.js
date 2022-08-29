@@ -7,6 +7,7 @@ const getIsLogInAlertShown = state => state.auth.isLogInAlertShown;
 const getIsRegisterEmailAlertShown = state => state.auth.isRegisterEmailAlertShown;
 const getIsRegisterPasswordAlertShown = state => state.auth.isRegisterPasswordAlertShown;
 
+
 export const authSelectors = {
   getIsLoggedIn,
   getUserEmail,

@@ -12,6 +12,7 @@ import Container from 'react-bootstrap/Container';
 import styled from 'styled-components';
 
 
+
 const HomePage = lazy(() => import('../pages/HomePage'));
 const RegisterPage = lazy(() => import('../pages/RegisterPage'));
 const LoginPage = lazy(() => import('../pages/LoginPage'));

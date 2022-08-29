@@ -8,6 +8,7 @@ import styled from 'styled-components';
 import { authSelectors } from "../redux/auth";
 import Alert from 'react-bootstrap/Alert';
 
+
 const StyledDiv = styled.div`
 display: flex;
 justify-content: center;`;

@@ -8,6 +8,7 @@ import Toast from 'react-bootstrap/Toast';
 import ToastContainer from 'react-bootstrap/ToastContainer';
 import styled from 'styled-components';
 
+
 const StyledButton = styled(Button)`
 display: flex;
 justify-content: center`;

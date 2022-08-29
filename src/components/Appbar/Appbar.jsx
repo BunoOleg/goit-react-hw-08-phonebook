@@ -6,6 +6,7 @@ import { authSelectors } from '../../redux/auth';
 import styled from 'styled-components';
 import Nav from 'react-bootstrap/Nav';
 
+
 const Header = styled.header`
 background-color: #39C0ED;
 padding: 1rem 10rem;

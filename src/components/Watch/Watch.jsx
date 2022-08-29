@@ -10,6 +10,7 @@ const StyledDiv = styled.div`
   padding-top: calc(20vh);
 `;
 
+
 const MainLoader = () => {
   return (
     <StyledDiv>

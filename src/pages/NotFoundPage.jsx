@@ -12,6 +12,7 @@ const StyledP = styled.p`
   font-weight: 500;
 `;
 
+
 const NotFoundPage = () => {
   return (
     <StyledDiv>
