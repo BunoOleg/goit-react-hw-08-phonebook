@@ -8,12 +8,12 @@ const getIsRegisterEmailAlertShown = state => state.auth.isRegisterEmailAlertSho
 const getIsRegisterPasswordAlertShown = state => state.auth.isRegisterPasswordAlertShown;
 
 export const authSelectors = {
-    getIsLoggedIn,
-    getUserEmail,
-    getUserName,
-    getUserToken,
-    getIsFetchingCurrent,
-    getIsLogInAlertShown,
-    getIsRegisterEmailAlertShown,
-    getIsRegisterPasswordAlertShown 
+  getIsLoggedIn,
+  getUserEmail,
+  getUserName,
+  getUserToken,
+  getIsFetchingCurrent,
+  getIsLogInAlertShown,
+  getIsRegisterEmailAlertShown,
+  getIsRegisterPasswordAlertShown,
 };

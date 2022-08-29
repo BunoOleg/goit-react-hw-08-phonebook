@@ -24,9 +24,9 @@ const register = createAsyncThunk('/auth/register', async credentials => {
 
 const login = createAsyncThunk('/auth/login', async (credentials, thunkAPI) => {
     try {
-        const { data } = await axios.post('/users/login', credentials);
-        token.set(data.token);
-        return data;
+      const { data } = await axios.post('/users/login', credentials);
+      token.set(data.token);
+      return data;
     } catch (error) {
         console.log(error);
         return thunkAPI.rejectWithValue('isLogInAlertShown');
